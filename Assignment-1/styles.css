@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Task 3: Style paragraphs differently */
+p:nth-of-type(1) {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  text-align: left;
+}
+
+p:nth-of-type(2) {
+  font-family: 'Courier New', monospace;
+  line-height: 1.8;
+  text-align: right;
+}
+
+/* Task 2: Center image and caption */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Button container for centering */
+.button-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Task 4: Styled button */
+.styled-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: 2px solid #2E7D32;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: white;
+  color: #4CAF50;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+/* Task 5: Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Task 5: Form styling */
+form {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0b7dda;
+}
